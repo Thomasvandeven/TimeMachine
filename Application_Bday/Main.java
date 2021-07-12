@@ -123,7 +123,7 @@ public class Main {
         //       System.out.println("next bday :" + volgendBday);
 
         System.out.println("");
-        System.out.format(tussen + " days scince " + "%1$tY", dateyear);
+        System.out.format(tussen + " days since " + "%1$tY", dateyear);
         System.out.println(".");
         System.out.println(nogtotBday + " days until your next birthday.");
         System.out.println(nogtotNY + " days until New Year.");
