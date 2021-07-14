@@ -8,7 +8,7 @@ import java.util.Formatter;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("EEEE, dd MMM yyyy HH:mm:ssa");
         LocalDateTime ldt = LocalDateTime.now();
         String ldtString = dtf.format(ldt);
@@ -129,4 +129,3 @@ public class Main {
         System.out.println(nogtotNY + " days until New Year.");
     }
 }
-
